@@ -1,0 +1,13 @@
+[package]
+name = "rustav"
+version = "0.1.0"
+edition = "2024"
+authors = ["Leon <echo_ai@foxmail.com>"]
+description = "A high-performance computer vision library for Rust."
+license = "MIT"
+repository = "https://github.com/RustCV/RustAV"
+keywords = ["RustAV", "media", "video", "audio"]
+# 排除本地测试用的 assets 或脚本，减小包体积
+exclude = ["assets/*", ".github/*"]
+
+[dependencies]
